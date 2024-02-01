@@ -76,4 +76,22 @@
     background-color: #228B22;
     border: dashed 1px;
 }
+#sixth-section .flex{
+    justify-content: center;
+    background-color: #23272A;
+    padding: 30px;
+}
 
+.red-item{
+    width: 250px;
+    height: 400px;
+    background-color: #F08080;
+    outline: dashed 1px;
+}
+.turquoise-item{
+    width: 100px;
+    height: 400px;
+    background-color: #20B2AA;
+    outline: dashed 1px black;
+    border: dashed 1px white;
+}
