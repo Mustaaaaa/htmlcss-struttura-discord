@@ -95,3 +95,22 @@
     outline: dashed 1px black;
     border: dashed 1px white;
 }
+#footer .flex{
+    justify-content: center;
+    background-color: #23272A;
+    height: 50px
+}
+.button-section{
+    display: flex;
+    justify-content: space-between;
+    align-self: flex-end;
+    align-items: center;
+    width: 650px;
+    height: 40px;
+    background-color: #7FFFD4;
+}
+button{
+    height: 20px;
+    border: dashed 1px;
+    background-color: #F08080;
+}
