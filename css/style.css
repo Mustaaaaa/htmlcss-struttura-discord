@@ -19,12 +19,43 @@
     border: dashed 1px;
 }
 #header-box .logo{
+    display: flex;
     border-right: dashed 1px;
     padding-left: 5px;
-    padding-right: 100px;
+    width: 15%;
+    justify-content: flex-start;
 }
-#header-box .login{
+#header-box .flex .login{
+    display: flex;
     border-left: dashed 1px;
     padding-right: 5px;
-    padding-left: 100px;
-    }
+    width: 15%;
+    justify-content: flex-end;
+}
+#first-section .flex{
+    justify-content: center;
+    background-color: #00008B;
+    padding: 30px;
+}
+#first-section .violet-item{
+    width: 500px;
+    height: 200px;
+    background-color: #EE82EE;
+}
+#second-section .flex{
+    justify-content: center;
+    background-color: #ffffff;
+    padding: 30px;
+}
+#second-section .lightblue-item{
+    width: 400px;
+    height: 250px;
+    background-color: #1E90FF;
+    border: dashed 1px;
+}
+#second-section .pink-item{
+    width: 250px;
+    height: 250px;
+    background-color: #FFC0CB;
+    border: dashed 1px;
+}
